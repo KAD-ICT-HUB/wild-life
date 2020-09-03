@@ -1,0 +1,16 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px;
+}
+
+img{
+	height: 300px;
+	width: 350px;
+	margin: 10px;
+	transition: 1s ease;
+}
+img:hover{
+	transform: scale(1.1);
+}
